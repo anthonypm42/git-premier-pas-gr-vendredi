@@ -12,6 +12,7 @@
 		4B4138FA1F9A2951000EA7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4138F81F9A2951000EA7FA /* Main.storyboard */; };
 		4B4138FC1F9A2951000EA7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4138FB1F9A2951000EA7FA /* Assets.xcassets */; };
 		4B4138FF1F9A2951000EA7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4138FD1F9A2951000EA7FA /* LaunchScreen.storyboard */; };
+		4B4139091F9A30EA000EA7FA /* arbreDeGit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4139081F9A30E6000EA7FA /* arbreDeGit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4B4138FB1F9A2951000EA7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B4138FE1F9A2951000EA7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B4139001F9A2951000EA7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4139081F9A30E6000EA7FA /* arbreDeGit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arbreDeGit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4B4138F31F9A2951000EA7FA /* git-premier-pas-gr-vendredi */ = {
 			isa = PBXGroup;
 			children = (
+				4B4139061F9A308A000EA7FA /* Ressources */,
 				4B4138F41F9A2951000EA7FA /* AppDelegate.swift */,
 				4B4138F61F9A2951000EA7FA /* ViewController.swift */,
 				4B4138F81F9A2951000EA7FA /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4B4139001F9A2951000EA7FA /* Info.plist */,
 			);
 			path = "git-premier-pas-gr-vendredi";
+			sourceTree = "<group>";
+		};
+		4B4139061F9A308A000EA7FA /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				4B4139081F9A30E6000EA7FA /* arbreDeGit.png */,
+			);
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				4B4138FF1F9A2951000EA7FA /* LaunchScreen.storyboard in Resources */,
 				4B4138FC1F9A2951000EA7FA /* Assets.xcassets in Resources */,
+				4B4139091F9A30EA000EA7FA /* arbreDeGit.png in Resources */,
 				4B4138FA1F9A2951000EA7FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
