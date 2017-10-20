@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("viewDidLoad")
+        afficher("Bonjour git", fois: 5)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +22,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
-}
+    //MARK:- Mes Fonctions
+    //TODO: Corriger nb fois -1
+    func afficher(_ msg:String, fois:Int = 1) {
+        for i in 0...fois {
+            print(i, msg)
+        } // for
+    } // afficher
+}// ViewController
 
