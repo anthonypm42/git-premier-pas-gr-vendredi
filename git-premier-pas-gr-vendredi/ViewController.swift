@@ -4,7 +4,7 @@
 //
 //  Created by git on 17-10-20.
 //  Copyright © 2017 git. All rights reserved.
-//
+// the fuck division par 0
 
 import UIKit
 
